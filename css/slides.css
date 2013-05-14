@@ -32,6 +32,10 @@ ul li {
     font-size: 24px;
 }
 
+a {
+    color: #33b;
+}
+
 /************************************/
 
 #bonjour img {
@@ -98,4 +102,10 @@ ul li {
 .structure img {
     max-height: 80%;
     max-width: 80%;
+}
+
+/************************************/
+
+#demo {
+    text-align: center;
 }
