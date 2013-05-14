@@ -129,3 +129,10 @@ a {
 #demo {
     text-align: center;
 }
+
+/************************************/
+.pageNumber{
+    position:absolute;
+    left:45%;
+    bottom:3%;
+}
