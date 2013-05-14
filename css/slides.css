@@ -88,3 +88,14 @@ ul li {
 #technologie .fight img[data-name="java"] {
     margin-left: 20px;
 }
+
+/************************************/
+
+.structure {
+    text-align: center;
+}
+
+.structure img {
+    max-height: 100%;
+    max-width: 100%;
+}
