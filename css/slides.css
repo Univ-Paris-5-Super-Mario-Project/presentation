@@ -100,8 +100,28 @@ a {
 }
 
 .structure img {
+    -webkit-transition: height 1s, width 0.5s 1s;
+    -moz-transition:    height 1s, width 0.5s 1s;
+    -ms-transition:     height 1s, width 0.5s 1s;
+    -o-transition:      height 1s, width 0.5s 1s;
+    transition:         height 1s, width 0.5s 1s;
+}
+
+.structure.active img {
     max-height: 80%;
     max-width: 80%;
+}
+
+.structure h1 {
+    display: none;
+}
+
+.structure.active h1 {
+    display: block;
+}
+
+.step.structure {
+    opacity: 1;
 }
 
 /************************************/
