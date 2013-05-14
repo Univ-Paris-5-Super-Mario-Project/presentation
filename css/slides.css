@@ -132,7 +132,8 @@ a {
 
 /************************************/
 .pageNumber{
-    position:absolute;
-    left:45%;
-    bottom:3%;
+	bottom: 3%;
+	left: 100%;
+	margin-left: -50%;
+	position: absolute;
 }
